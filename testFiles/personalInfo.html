@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/iTrade-1.png">
+    <meta name="keywords" content="bootstrap, bootstrap4">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fontawesome.com/v4/icons/">
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>iTrade!</title>
+
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+    <div class="site-wrap" id="home-section">
+
+        <header class="site-navbar site-navbar-target">
+
+            <div class="container">
+                <div class="row align-items-center position-relative">
+
+                    <div class="col-lg-4">
+                        <nav class="site-navigation text-right ml-auto " role="navigation">
+                            <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                                <li class="active"><a href="../pages/homepage.html" class="nav-link">Home</a></li>
+
+                                <li><a href="options.html" class="nav-link textBooks">Textbooks</a>
+                                    <ul class="dropdown">
+                                        <li><a href="buyBook.html">Buy Books</a></li>
+                                        <li><a href="sellBook.html">Sell Books</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="" class="nav-link">Entertainment</a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <div class="site-logo siteLogoPersonalInfoPage">
+                            <a href="">iTrade!</a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <nav class="site-navigation text-left mr-auto " role="navigation">
+                            <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                                <li><a href="" class="nav-link">Account</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">Selling List</a></li>
+                                        <li><a href="#">Order History</a></li>
+                                        <li><a href="personalInfo.html">Personal Info</a></li>
+                                    </ul>
+
+                                </li>
+                                <li><a href="about.html" class="nav-link">About</a></li>
+                                <div class="signOut">
+                                    <a href="index.html" class="nav-link signOut" style="color: red;">Sign Out</a>
+                                </div>
+                                <li><a href="shoppingCart.html" class="fa fa-shopping-cart"></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="ftco-blocks-cover-1">
+            <div class="ftco-cover-1 overlay" style="background-image: url('../images/books.jpg')">
+                <div class="container">
+                    <div class="row align-items-center justify-content-center">
+
+                        <div class="personalInfoGlass">
+
+
+                            <div class="row">
+                                <div class="col-sm-10">
+                                    <h1>User name</h1>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <!--left col-->
+
+
+                                    <div class="text-center">
+                                        <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png"
+                                            class="avatar img-circle img-thumbnail" alt="avatar">
+                                        <h6>Upload a different photo...</h6>
+                                        <input type="file" class="text-center center-block file-upload">
+                                    </div>
+                                    <br>
+
+
+                                </div>
+                                <!--/col-3-->
+                                <div class="col-sm-9">
+                                    <ul class="nav nav-tabs">
+                                        <li class="personalInfoTab"><a data-toggle="tab" href="#personalInfo">Personal
+                                                Info</a></li>
+                                        <li><a data-toggle="tab" class="changePasswordTab" href="#changePassword">Change
+                                                Password</a></li>
+                                    </ul>
+
+
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="personalInfo">
+
+                                            <form class="form" action="##" method="post" id="registrationForm">
+                                                <div class="form-group">
+
+                                                    <div class="col-xs-6">
+                                                        <label for="first_name">
+                                                            <h4>First name</h4>
+                                                        </label>
+                                                        <input type="text" class="form-control" name="first_name"
+                                                            id="first_name" placeholder="First name"
+                                                            title="enter your first name if any.">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+
+                                                    <div class="col-xs-6">
+                                                        <label for="last_name">
+                                                            <h4>Last name</h4>
+                                                        </label>
+                                                        <input type="text" class="form-control" name="last_name"
+                                                            id="last_name" placeholder="Last name"
+                                                            title="enter your last name if any.">
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+
+                                                    <div class="col-xs-6">
+                                                        <label for="phone">
+                                                            <h4>Phone</h4>
+                                                        </label>
+                                                        <input type="text" class="form-control" name="phone" id="phone"
+                                                            placeholder="Enter phone"
+                                                            title="enter your phone number if any.">
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="form-group">
+
+                                                    <div class="col-xs-6">
+                                                        <label for="email">
+                                                            <h4>Email</h4>
+                                                        </label>
+                                                        <input type="email" class="form-control" name="email" id="email"
+                                                            placeholder="you@email.com" title="enter your email.">
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="form-group">
+                                                    <div class="col-xs-12">
+                                                        <br>
+                                                        <button class="btn btn-lg btn-success" type="submit"><i
+                                                                class="glyphicon glyphicon-ok-sign"></i>
+                                                            Save</button>
+                                                        <button class="btn btn-lg resetButton" type="reset"><i
+                                                                class="glyphicon glyphicon-repeat"></i>
+                                                            Reset</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+
+
+
+                                        </div>
+                                        <!--/tab-pane-->
+                                        <div class="tab-pane" id="changePassword">
+
+
+                                            <form class="form" action="##" method="post" id="registrationForm">
+
+                                                <div class="form-group">
+                                                    <div class="col-xs-6">
+                                                        <label for="password">
+                                                            <h4>Old Password</h4>
+                                                        </label>
+                                                        <input type="password" class="form-control" name="password"
+                                                            id="oldPassword" placeholder="Old Password"
+                                                            title="enter your password.">
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="form-group">
+                                                    <div class="col-xs-6">
+                                                        <label for="password">
+                                                            <h4>New Password</h4>
+                                                        </label>
+                                                        <input type="password" class="form-control" name="password"
+                                                            id="newPassword" placeholder="New Password"
+                                                            title="enter your password.">
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <div class="col-xs-6">
+                                                        <label for="password2">
+                                                            <h4>Confirm Password</h4>
+                                                        </label>
+                                                        <input type="password" class="form-control"
+                                                            name="confirmPassword" id="confirmPassword"
+                                                            placeholder="Confirm Password"
+                                                            title="enter your password2.">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-xs-12">
+                                                        <br>
+                                                        <button class="btn btn-lg btn-success" type="submit"><i
+                                                                class="glyphicon glyphicon-ok-sign"></i>
+                                                            Save</button>
+                                                        <button class="btn btn-lg resetButton" type="reset"><i
+                                                                class="glyphicon glyphicon-repeat"></i>
+                                                            Reset</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+
+                                        </div>
+                                        <!--/tab-pane-->
+                                        <div class="tab-pane" id="settings">
+
+                                            <script>
+                                                $(document).ready(function () {
+
+
+                                                    var readURL = function (input) {
+                                                        if (input.files && input.files[0]) {
+                                                            var reader = new FileReader();
+
+                                                            reader.onload = function (e) {
+                                                                $('.avatar').attr('src', e.target.result);
+                                                            }
+
+                                                            reader.readAsDataURL(input.files[0]);
+                                                        }
+                                                    }
+
+
+                                                    $(".file-upload").on('change', function () {
+                                                        readURL(this);
+                                                    });
+                                                });
+                                            </script>
+                                        </div>
+
+                                    </div>
+                                    <!--/tab-pane-->
+                                </div>
+                                <!--/tab-content-->
+
+                            </div>
+                            <!--/col-9-->
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="../js/aos.js"></script>
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>

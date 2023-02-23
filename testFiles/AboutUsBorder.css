@@ -1,0 +1,17 @@
+
+
+.myBorder
+{
+background-color: black;
+padding: 25px;
+border: 3px dashed black;
+
+}
+
+.DoubleSpacedText
+{
+    font-size: 16px;
+    line-height: 1.5em;
+
+}
+
